@@ -1,10 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import HikingForm from "@/components/HikingForm";
+import UserForm from "@/components/userForm";
+import hikesAPI from "../utils/api/hikes"
+import Button from "@/components/testButton";
 export default function Home() {
+
+  
+
   return (
     <main className={styles.main}>
-      <HikingForm />
+      {/* <UserForm /> */}
+      <Button />
     </main>
   );
 }
